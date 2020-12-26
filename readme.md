@@ -22,9 +22,9 @@ docker rm -f atom
 docker run -d \
 	--name atom \
 	-v x11tmp:/tmp/.X11-unix/ \
-        -v atom-home:/home/atom/.atom \
+  -v atom-home:/home/atom/.atom \
 	-e DISPLAY=:1 \
-        brugnara/atom
+  brugnara/atom
 ```
 
 ## Credits
